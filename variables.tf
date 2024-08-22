@@ -4,7 +4,7 @@ variable "instance_type" {
 }
 
 variable "ami_filter" {
-  description = "Name filter and owner for ami_filter
+  description = "Name filter and owner for ami_filter"
   type = object({
     name = string
     owner = string
